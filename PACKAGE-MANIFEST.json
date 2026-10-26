@@ -1,0 +1,231 @@
+{
+  "files": 45,
+  "bytes": 405043,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "bytes": 527,
+      "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+    },
+    {
+      "path": "apps/varla-social-publisher/.gitignore",
+      "bytes": 109,
+      "sha256": "b8cce8206352ae3a26b830a03c9e8eca180f542a6f072977932c1d58d7cc9c2e"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/web/app/api/content/validate/route.ts",
+      "bytes": 351,
+      "sha256": "1b6abcaf538dcecc7519b67dcd1023d53ebdbe24947366ba627a05e1fd00ee2b"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/web/app/api/health/route.ts",
+      "bytes": 286,
+      "sha256": "3594732adf9b4f7fb5d4f5ce22572b92d3168a585a1f928068e8e3253048d4e1"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/web/app/globals.css",
+      "bytes": 1278,
+      "sha256": "a00ec56b2709f728a71d2fe589a5fbb917f00316ed896cb15be21d7f135b9728"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/web/app/layout.tsx",
+      "bytes": 534,
+      "sha256": "529b268bde861b304f84cd4a821ecfc05170ac4720464f2e9a688476b57a399c"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/web/app/page.tsx",
+      "bytes": 1319,
+      "sha256": "630c55b36db78e037705da4a56a7bd0b2e4c23e7b81a3ec1d7dd29955215ff55"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/web/next-env.d.ts",
+      "bytes": 251,
+      "sha256": "7ad303e40d4fddf44f156129e397511953a71481c5cfd86b1862649aaaf240cc"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/web/package.json",
+      "bytes": 457,
+      "sha256": "f14763b778bb7a92d59b667486458de05e6e6364f1d495523946bafdd8dafa02"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/web/tsconfig.json",
+      "bytes": 640,
+      "sha256": "44c72340b0de03c1ddb76156be238448b77b2a8a86f1b2e6fe89b059ec083497"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/worker/package.json",
+      "bytes": 367,
+      "sha256": "a3cd5929647eeeba35624577d40c85ec3de31eeb33cc18c9a978a894c1e54bf1"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/worker/src/index.ts",
+      "bytes": 1609,
+      "sha256": "f4ae134f3cbf9603d5ea8754a898b30e3e9869a62c310a7f2b8d5897affddd2b"
+    },
+    {
+      "path": "apps/varla-social-publisher/apps/worker/tsconfig.json",
+      "bytes": 181,
+      "sha256": "80600e3263468b005e535cc70cfa772e5401e8c2d401d2303d226c71c769eff4"
+    },
+    {
+      "path": "apps/varla-social-publisher/BLOCKERS.md",
+      "bytes": 498,
+      "sha256": "a67a7466fc09aaa9397785db086a863d0acc5761e98171c5f603035aa93b8b15"
+    },
+    {
+      "path": "apps/varla-social-publisher/docker-compose.yml",
+      "bytes": 723,
+      "sha256": "312e78100145d9ca198038c35261af38947e9753a0d14533b8867502cc1e9e14"
+    },
+    {
+      "path": "apps/varla-social-publisher/Dockerfile",
+      "bytes": 461,
+      "sha256": "ac84c1db85546825d3b272c7c39353b499489a64c1a03c307da07a3655c62403"
+    },
+    {
+      "path": "apps/varla-social-publisher/IMPLEMENTATION_PLAN.md",
+      "bytes": 1655,
+      "sha256": "db1f74da89507e8795db188a73646897d668b57e91bd0d32d119a48e427486f3"
+    },
+    {
+      "path": "apps/varla-social-publisher/package-lock.json",
+      "bytes": 110858,
+      "sha256": "59800b3a99e81adeaddff21555c0d56d92a4c3254dd0c067b700ad6e5b209d5a"
+    },
+    {
+      "path": "apps/varla-social-publisher/package.json",
+      "bytes": 719,
+      "sha256": "e60d97418a2e5fc91609f897c64a1dff9271f8d4819c3e59c076ad2b1d65ed03"
+    },
+    {
+      "path": "apps/varla-social-publisher/packages/core/package.json",
+      "bytes": 281,
+      "sha256": "7b18deeb8c74de1992370ec6e9db53ef3284be76099c8f4912cf7ac27104f3c6"
+    },
+    {
+      "path": "apps/varla-social-publisher/packages/core/src/index.ts",
+      "bytes": 2791,
+      "sha256": "e32442a4d011cede37b798f39ade888e37287de6560b3f4838e50bb562b20055"
+    },
+    {
+      "path": "apps/varla-social-publisher/packages/core/tsconfig.json",
+      "bytes": 214,
+      "sha256": "c6d56d1e07517f6848aedf991ace2258673cbb8ab7c08823bd4c62039220578b"
+    },
+    {
+      "path": "apps/varla-social-publisher/README.md",
+      "bytes": 1628,
+      "sha256": "05bf89ec1cacc8adbf5d2a7135c7c6095c0e922170dcac22332eecbea8820cfc"
+    },
+    {
+      "path": "apps/varla-social-publisher/START_VARLA.bat",
+      "bytes": 140,
+      "sha256": "69e2c52a819c09a08970f63ae7cb31f0d226e6ea2afe2760e0a78d948619235a"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/CHANGELOG.md",
+      "bytes": 54523,
+      "sha256": "0b75459a38e94118c64d5676958f4849646dfb8bf071a0d520ad42c78dcd1420"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/corepack.cmd",
+      "bytes": 218,
+      "sha256": "920630a1d1ec47aedea7345e3c868ecdc07e191373497bbf47fbbf5942fbad4f"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/install_tools.bat",
+      "bytes": 3094,
+      "sha256": "15e51e2539255e7b1bdd294aff26a1498ba258537ee92a485c7282c693707054"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/LICENSE",
+      "bytes": 148217,
+      "sha256": "8cc9bb466b19fc7e7cc99d03e9df1132021fda8b01eea2624c58bb372dbef576"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/nodevars.bat",
+      "bytes": 702,
+      "sha256": "a2b020e2f641524c6fd1b8ebbcd9ee03c7dc44009f2b78e701e773ad048be9a5"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/npm.cmd",
+      "bytes": 538,
+      "sha256": "21b46c69ad6e2f231f02a9e120f4ba6c8e75fef5a45637103002eab99f888ab8"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/npm.ps1",
+      "bytes": 1700,
+      "sha256": "e8aedc8c76d6cb9423b70ede071228f7cb1644094c114b8721ae6d121100d4fe"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/npx.cmd",
+      "bytes": 538,
+      "sha256": "4dd3574f4396fc3b45c52b6ac80fd52be2dd2660d2a153b4cc807dbbfeefa7a0"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/npx.ps1",
+      "bytes": 1700,
+      "sha256": "0341d1d2ec7818edf7c5affb6446a952f9a28a98689910f89a51c5a6c3a78ad9"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/node-v22.23.1-win-x64/README.md",
+      "bytes": 43384,
+      "sha256": "0234ff93ce95b873e0b358347163f20daec6d2a9954116f55d1e130864dd7b1b"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/redis-8.8.0/Redis-8.8.0-Windows-x64-msys2/README.md",
+      "bytes": 4053,
+      "sha256": "d0fbd5bf93da85e54303b160b7f27e7b54ccb62275a26131a7ef77ad6a0b52f9"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/redis-8.8.0/Redis-8.8.0-Windows-x64-msys2/README.zh_CN.md",
+      "bytes": 3954,
+      "sha256": "019e5d0d4f3590e47314a92e1d4ed46b6b40fd8fbbe7024647028be31f7a2a40"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/redis-8.8.0/Redis-8.8.0-Windows-x64-msys2/start.bat",
+      "bytes": 60,
+      "sha256": "92ff46789bd6ed9a98736d2f455d941bbe07196b2de130e94cd197e923e56e59"
+    },
+    {
+      "path": "apps/varla-social-publisher/tools/start_varla.ps1",
+      "bytes": 3416,
+      "sha256": "c959fee18b22adbcc2c09ce4f67d4d60f1384c3fd89ff3e0e52996a7af23beb5"
+    },
+    {
+      "path": "install.ps1",
+      "bytes": 646,
+      "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 977,
+      "sha256": "27c25faecc524689967d6a8fa7da556cedd3f92f3bf9c913e84cfb1cce942c5a"
+    },
+    {
+      "path": "skill/meta-auto-reply-skill/agents/openai.yaml",
+      "bytes": 126,
+      "sha256": "b3dc2ac7b8fdf0c834ede738872e0595f997907a12427bb35c9063e8380ec017"
+    },
+    {
+      "path": "skill/meta-auto-reply-skill/references/routing-and-language.md",
+      "bytes": 1322,
+      "sha256": "9d25b1e66dda0e5a479099ea5a9caee18f253e005b6e107006a1d5e53ec24ff6"
+    },
+    {
+      "path": "skill/meta-auto-reply-skill/SKILL.md",
+      "bytes": 7798,
+      "sha256": "1a507a34361290c4d2fea5a0910ad9966519f403dd58985d35bfafe06a55b844"
+    },
+    {
+      "path": "安装Skill.cmd",
+      "bytes": 105,
+      "sha256": "ad77696738bfb2f92f802e0941c18cb906baad9989a604536cfc81a60e176d1a"
+    },
+    {
+      "path": "打开程序文件夹.cmd",
+      "bytes": 95,
+      "sha256": "c4f42f3bec05b83599d984b3c79328e6fc93fb2be392fea35477918acd16759d"
+    }
+  ]
+}
