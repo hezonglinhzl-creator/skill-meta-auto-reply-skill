@@ -1,11 +1,16 @@
 {
-  "files": 45,
-  "bytes": 405043,
+  "files": 51,
+  "bytes": 427231,
   "entries": [
     {
       "path": ".gitignore",
       "bytes": 527,
       "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+    },
+    {
+      "path": "apps/varla-social-publisher/.env.example",
+      "bytes": 674,
+      "sha256": "004190706b2af8e1d1a9e51d2f2f4ff520d8feb46cc1c267f10777d74380d6ec"
     },
     {
       "path": "apps/varla-social-publisher/.gitignore",
@@ -113,9 +118,19 @@
       "sha256": "c6d56d1e07517f6848aedf991ace2258673cbb8ab7c08823bd4c62039220578b"
     },
     {
+      "path": "apps/varla-social-publisher/prisma/schema.prisma",
+      "bytes": 4678,
+      "sha256": "097497ee6c805d5dab643f7c4e16537c253a0692a0d38616f8726e008ed7425b"
+    },
+    {
+      "path": "apps/varla-social-publisher/README.en.md",
+      "bytes": 2404,
+      "sha256": "a81b26a154608c59c8465314e0d7eed3abf7894414ac38ed78c2c03dca33561b"
+    },
+    {
       "path": "apps/varla-social-publisher/README.md",
-      "bytes": 1628,
-      "sha256": "05bf89ec1cacc8adbf5d2a7135c7c6095c0e922170dcac22332eecbea8820cfc"
+      "bytes": 2408,
+      "sha256": "4a6f1c3e89332a7ff414a6aa190eea1fdc120723fd370ff602b9cd17adfb4db6"
     },
     {
       "path": "apps/varla-social-publisher/START_VARLA.bat",
@@ -198,14 +213,29 @@
       "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
     },
     {
+      "path": "README.en.md",
+      "bytes": 4295,
+      "sha256": "b8aba54b4420107c68ca57f455c23fffd263ccd11157da731ebbecaa4b71290e"
+    },
+    {
       "path": "README.md",
-      "bytes": 977,
-      "sha256": "27c25faecc524689967d6a8fa7da556cedd3f92f3bf9c913e84cfb1cce942c5a"
+      "bytes": 4098,
+      "sha256": "2ae85f7297994c7cb9e9bec3a28190615ae7faa5bd69af5f63e9b63d3e5b6b1a"
     },
     {
       "path": "skill/meta-auto-reply-skill/agents/openai.yaml",
       "bytes": 126,
       "sha256": "b3dc2ac7b8fdf0c834ede738872e0595f997907a12427bb35c9063e8380ec017"
+    },
+    {
+      "path": "skill/meta-auto-reply-skill/README.en.md",
+      "bytes": 3165,
+      "sha256": "993e69a057469921a2b7ea07a0b5754419bee04464b82bfd3ffc2dedae4f7cec"
+    },
+    {
+      "path": "skill/meta-auto-reply-skill/README.md",
+      "bytes": 3071,
+      "sha256": "d5bca4de3f19691d18a470bfe5bda39358b16b7b33d4a8434210620ea59347c1"
     },
     {
       "path": "skill/meta-auto-reply-skill/references/routing-and-language.md",
