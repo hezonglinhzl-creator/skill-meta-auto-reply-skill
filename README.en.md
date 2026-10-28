@@ -25,6 +25,8 @@ Maintain Meta support/KOL reply rules with source for the local social-publishin
 2. Right-click the downloaded ZIP and choose **Extract All**. Open the extracted folder containing this README.
 3. Keep the whole folder together. Start the program first using the next section, then install/use its skill.
 
+Installation also writes PACKAGE-LOCATION.json beside the installed SKILL.md, mapping the bundled programs to their actual extracted directories. Keep the full extracted folder; rerun the installer after moving it. Existing Skill content is preserved by default while paths are refreshed.
+
 ## 1. Set up the program first
 
 ### Social Scheduling and Mock Publishing Prototype (`varla-social-publisher`)
@@ -33,17 +35,16 @@ Node.js 22, npm and Redis; Docker may provide Redis/MinIO, with FFmpeg for media
 
 Open `apps/varla-social-publisher` first. A local dashboard, task validation, BullMQ worker and mock adapter.
 
-1. Open PowerShell here, run `Copy-Item .env.example .env`, set your local secrets and keep `MOCK_PUBLISHING=true`.
-2. Run `npm install`, then `npm run db:generate` and `npm run db:push`.
-3. Start Redis, check REDIS_URL in `.env`, then run `npm run dev`.
-4. In another terminal run `$env:RUN_WORKER='true'; $env:MOCK_PUBLISHING='true'; $env:REDIS_URL='redis://127.0.0.1:6379'; npm run worker`.
-5. Open the dashboard for mock jobs only. Resolve database, Redis, storage and worker health failures first.
+1. Install system Node.js 22+ and run npm install in this program folder.
+2. Run START_VARLA.bat for the static dashboard, or powershell -File tools/start_varla.ps1 -CheckOnly for a non-starting diagnostic.
+3. Redis and the worker do not start automatically. To develop the mock worker, supply your Redis and explicitly configure RUN_WORKER, MOCK_PUBLISHING and REDIS_URL.
+4. The page has no upload/review/scheduling workflow. /api/health is a fixed 503 placeholder, not a real dependency check.
 
 Local URL: `http://127.0.0.1:3000`
 
 [Full program / browser-extension guide](apps/varla-social-publisher/README.en.md)
 
-Source rejects unconfigured real adapters. Meta/TikTok publishing, OAuth, app review and public media URLs still need integration; mock success is not a live publication.
+The launcher starts only the dashboard with system Node.js 22+ and never starts a worker automatically. Install npm dependencies first; inspect readiness with `powershell -File tools/start_varla.ps1 -CheckOnly`. Real adapters, OAuth, app review and an upload/scheduling workflow remain unimplemented.
 
 ## 2. Install the Skill
 

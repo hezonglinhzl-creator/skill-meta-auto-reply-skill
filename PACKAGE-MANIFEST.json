@@ -1,11 +1,11 @@
 {
   "files": 51,
-  "bytes": 427231,
+  "bytes": 429826,
   "entries": [
     {
       "path": ".gitignore",
-      "bytes": 527,
-      "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+      "bytes": 552,
+      "sha256": "306594764a35cf47b68ddefaf227968de9684a1c465fafa94d821ba4c5162e96"
     },
     {
       "path": "apps/varla-social-publisher/.env.example",
@@ -124,13 +124,13 @@
     },
     {
       "path": "apps/varla-social-publisher/README.en.md",
-      "bytes": 2404,
-      "sha256": "a81b26a154608c59c8465314e0d7eed3abf7894414ac38ed78c2c03dca33561b"
+      "bytes": 2667,
+      "sha256": "8ebd6ddf81ae53bac866f7244321ecccd66b013bbeb699d22f271c3f2d702231"
     },
     {
       "path": "apps/varla-social-publisher/README.md",
-      "bytes": 2408,
-      "sha256": "4a6f1c3e89332a7ff414a6aa190eea1fdc120723fd370ff602b9cd17adfb4db6"
+      "bytes": 2546,
+      "sha256": "069989b5648af11081b685276aa014809d360e4c1a4d3f38a29f1554d434780a"
     },
     {
       "path": "apps/varla-social-publisher/START_VARLA.bat",
@@ -204,23 +204,23 @@
     },
     {
       "path": "apps/varla-social-publisher/tools/start_varla.ps1",
-      "bytes": 3416,
-      "sha256": "c959fee18b22adbcc2c09ce4f67d4d60f1384c3fd89ff3e0e52996a7af23beb5"
+      "bytes": 2012,
+      "sha256": "8c69d4fb878fd7e505d66ba805d6231179049086531de21ae1a1b8882ccce078"
     },
     {
       "path": "install.ps1",
-      "bytes": 646,
-      "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
+      "bytes": 2339,
+      "sha256": "d662489ba0c1bf009c714b6030eab322a04042b5d8ff441eeb56bb4549763dd3"
     },
     {
       "path": "README.en.md",
-      "bytes": 4295,
-      "sha256": "b8aba54b4420107c68ca57f455c23fffd263ccd11157da731ebbecaa4b71290e"
+      "bytes": 4708,
+      "sha256": "4a4d292bc91d5d3d94187dadf33228672b77ab0deed7a865410a0735de147126"
     },
     {
       "path": "README.md",
-      "bytes": 4098,
-      "sha256": "2ae85f7297994c7cb9e9bec3a28190615ae7faa5bd69af5f63e9b63d3e5b6b1a"
+      "bytes": 4367,
+      "sha256": "eb17fbf83a592707e9dc61d4d64bfd9efacf7b54ab02191e9c8610dffc8048cc"
     },
     {
       "path": "skill/meta-auto-reply-skill/agents/openai.yaml",
@@ -229,13 +229,13 @@
     },
     {
       "path": "skill/meta-auto-reply-skill/README.en.md",
-      "bytes": 3165,
-      "sha256": "993e69a057469921a2b7ea07a0b5754419bee04464b82bfd3ffc2dedae4f7cec"
+      "bytes": 3288,
+      "sha256": "9cbd3507a6e5d4cb45d8ed3b7567df2cabe4ed9b701a430806193ffc29faab1d"
     },
     {
       "path": "skill/meta-auto-reply-skill/README.md",
-      "bytes": 3071,
-      "sha256": "d5bca4de3f19691d18a470bfe5bda39358b16b7b33d4a8434210620ea59347c1"
+      "bytes": 3104,
+      "sha256": "de8954bd43abed075aa7e6a593e6dfad79516c9903178d3f5d6e5f9b70e8c6d2"
     },
     {
       "path": "skill/meta-auto-reply-skill/references/routing-and-language.md",
@@ -244,8 +244,8 @@
     },
     {
       "path": "skill/meta-auto-reply-skill/SKILL.md",
-      "bytes": 7798,
-      "sha256": "1a507a34361290c4d2fea5a0910ad9966519f403dd58985d35bfafe06a55b844"
+      "bytes": 8840,
+      "sha256": "4286a737c62eee6327105635d027038aac6970fc65388812c9b22dd53ebf7388"
     },
     {
       "path": "安装Skill.cmd",
